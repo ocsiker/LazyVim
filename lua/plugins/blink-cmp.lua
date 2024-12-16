@@ -4,7 +4,7 @@ return {
   dependencies = {
     { "saghen/blink.compat", opts = { impersonate_nvim_cmp = true } },
     { "saadparwaiz1/cmp_luasnip" },
-    { dependencies = "L3MON4D3/LuaSnip" },
+    { "L3MON4D3/LuaSnip" },
   },
   opts = {
     sources = {
