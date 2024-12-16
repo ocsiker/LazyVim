@@ -5,14 +5,16 @@ return {
     { "saghen/blink.compat", opts = { impersonate_nvim_cmp = true } },
     { "saadparwaiz1/cmp_luasnip" },
     { "L3MON4D3/LuaSnip" },
+    { "codeium.nvim" },
   },
   opts = {
     sources = {
       completion = { enabled_providers = { "lsp", "path", "luasnip", "buffer" } },
       providers = {
         dadbod = { name = "Dadbod", module = "vim_dadbod_completion.blink" },
+        codeium = { kind = "Codeium", score_offset = 100, async = true },
       },
-      compat = { "luasnip" },
+      compat = { "luasnip", "codeium" },
     },
     snippets = {
       expand = function(snippet)
