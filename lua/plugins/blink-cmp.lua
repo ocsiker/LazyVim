@@ -14,7 +14,7 @@ return {
       providers = {
         dadbod = { name = "Dadbod", module = "vim_dadbod_completion.blink" },
         codeium = { kind = "Codeium", score_offset = 100, async = true },
-        emoji = { name = "emoji", module = "blink.compat.source" },
+        emoji = { name = "Emoji", module = "blink.compat.source" },
       },
       compat = { "luasnip", "codeium", "emoji" },
     },
