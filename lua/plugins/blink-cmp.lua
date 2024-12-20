@@ -39,6 +39,10 @@ return {
       preset = "enter",
       ["<Tab>"] = { "snippet_forward", "select_next", "fallback" },
       ["<S-Tab>"] = { "snippet_backward", "select_prev", "fallback" },
+      ["<C-space>"] = { "show", "show_documentation", "hide_documentation", "fallback" },
+      ["<C-e>"] = { "hide", "fallback" },
+      ["<C-u>"] = { "scroll_documentation_up", "fallback" },
+      ["<C-d>"] = { "scroll_documentation_down", "fallback" },
     },
     --appearance
     appearance = {
