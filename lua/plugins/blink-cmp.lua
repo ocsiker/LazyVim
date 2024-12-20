@@ -5,7 +5,6 @@ return {
     { "saghen/blink.compat", opts = { impersonate_nvim_cmp = true } },
     { "saadparwaiz1/cmp_luasnip" },
     { "L3MON4D3/LuaSnip" },
-    { "codeium.nvim" },
     { "hrsh7th/cmp-emoji" },
   },
   opts = {
@@ -13,8 +12,6 @@ return {
       completion = { enabled_providers = { "lsp", "path", "luasnip", "buffer", "emoji" } },
       providers = {
         dadbod = { name = "Dadbod", module = "vim_dadbod_completion.blink" },
-        codeium = { kind = "Codeium", score_offset = 100, async = true },
-        emoji = { name = "Emoji", module = "blink.compat.source" },
       },
       compat = { "luasnip", "codeium", "emoji" },
     },
