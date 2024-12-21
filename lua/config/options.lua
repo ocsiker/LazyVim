@@ -3,3 +3,4 @@
 -- Add any additional options here
 --
 vim.o.background = "dark" -- or "light" for light mode
+vim.o.foldmethod = "manual"
