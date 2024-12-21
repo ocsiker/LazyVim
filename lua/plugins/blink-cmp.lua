@@ -1,6 +1,7 @@
 return {
   "saghen/blink.cmp",
   optional = true,
+  version = "0.7.*",
   dependencies = {
     { "saghen/blink.compat", opts = { impersonate_nvim_cmp = true } },
     { "saadparwaiz1/cmp_luasnip" },
