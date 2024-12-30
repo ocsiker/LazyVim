@@ -4,3 +4,5 @@
 --
 vim.o.background = "dark" -- or "light" for light mode
 vim.o.foldmethod = "manual"
+-- remap localleader for nvim
+vim.g.maplocalleader = ","
