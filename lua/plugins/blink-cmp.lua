@@ -10,11 +10,11 @@ return {
   },
   opts = {
     sources = {
-      completion = { enabled_providers = { "lsp", "path", "luasnip", "buffer", "emoji" } },
+      completion = { enabled_providers = { "lsp", "path", "luasnip", "buffer", "emoji", "dadbod" } },
       providers = {
         dadbod = { name = "Dadbod", module = "vim_dadbod_completion.blink" },
       },
-      compat = { "luasnip", "codeium", "emoji" },
+      compat = { "luasnip", "codeium", "emoji", "dadbod" },
     },
     snippets = {
       expand = function(snippet)
