@@ -4,6 +4,3 @@
 --
 vim.o.background = "dark" -- or "light" for light mode
 vim.o.foldmethod = "manual"
-
--- auto execute query
-vim.g.db_ui_auto_execute_table_helpers = 1
