@@ -1,1 +1,4 @@
-return { "EdenEast/nightfox.nvim" }
+return {
+  "EdenEast/nightfox.nvim",
+  opts = { colorscheme = "nightfox" },
+}
