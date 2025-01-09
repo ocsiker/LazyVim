@@ -1,4 +1,3 @@
--- lazy.nvim
 return {
   "shuntaka9576/preview-asciidoc.vim",
   dependencies = {
