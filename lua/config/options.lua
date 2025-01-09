@@ -4,3 +4,6 @@
 --
 vim.o.background = "dark" -- or "light" for light mode
 vim.o.foldmethod = "manual"
+
+-- tự động ngắt dòng khi 80 ý tự
+vim.o.textwidth = 80
