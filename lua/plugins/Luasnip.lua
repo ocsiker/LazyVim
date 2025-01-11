@@ -11,7 +11,8 @@ return {
         -- require("luasnip.loaders.from_vscode").lazy_load()
         -- require("luasnip.loaders.from_vscode").lazy_load({ paths = { "~/Alpha/sourceCode/snippets/Jsnippets" } })
         -- require("luasnip.loaders.from_vscode").lazy_load({ paths = { vim.fn.stdpath("config") .. "/snippets" } })
-        require("luasnip.loaders.from_vscode").lazy_load()
+        -- IMPORTANT THING IS CHECK FILE PACKAGE.JSON IS AVAILABEL
+        require("luasnip.loaders.from_vscode").lazy_load({ paths = { "~/Alpha/sourceCode/snippets/friendly-snippets" } })
       end,
     },
     {
