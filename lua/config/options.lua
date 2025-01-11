@@ -7,4 +7,4 @@ vim.o.foldmethod = "manual"
 -- remap localleader for nvim
 vim.g.maplocalleader = ","
 -- tự động ngắt dòng khi 80 ý tự
-vim.o.textwidth = 80
+vim.o.textwidth = 100
