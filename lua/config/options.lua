@@ -4,6 +4,10 @@
 --
 vim.o.background = "dark" -- or "light" for light mode
 vim.o.foldmethod = "manual"
+vim.o.foldlevel = 0
+vim.o.foldenable = true
+vim.o.foldclose = "all"
+vim.o.foldlevelstart = 0
 -- remap localleader for nvim
 vim.g.maplocalleader = ","
 -- tự động ngắt dòng khi 80 ý tự
