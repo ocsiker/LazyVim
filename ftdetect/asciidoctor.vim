@@ -1,1 +1,1 @@
-au BufRead, BufNewFile *.adoc set filetype=asciidoctor
+au BufRead, BufNewFile *    if &ft == 'asciidoc' | set ft=asciidoctor | endif 
