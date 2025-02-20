@@ -15,6 +15,10 @@ return {
       -- Your DBUI configuration
       vim.g.db_ui_use_nerd_fonts = 1
       vim.g.db_ui_auto_execute_table_helpers = 1
+      -- chay oracle sqlcl
+      vim.g.db_ui_use_sqlplus = 0
+      vim.g.dbext_default_ORA_bin = "sql"
+      vim.g.db_ui_save_localtion = "~/Alpha/sourceCode/sql"
     end,
   },
 }
