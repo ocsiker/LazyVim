@@ -24,3 +24,13 @@ vim.api.nvim_create_autocmd("BufWinEnter", {
     end
   end,
 })
+
+vim.api.nvim_create_augroup("PLSQLComment", { clear = true })
+
+vim.api.nvim_create_autocmd("FileType", {
+  group = "PLSQLComment",
+  pattern = { "plsql", "sql" }, -- Áp dụng cho file PL/SQL và SQL
+  callback = function()
+    vim.bo.commentstring = "-- %s"
+  end,
+})
