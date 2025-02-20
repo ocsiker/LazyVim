@@ -18,7 +18,7 @@ return {
       -- chay oracle sqlcl
       vim.g.db_ui_use_sqlplus = 0
       vim.g.dbext_default_ORA_bin = "sql"
-      vim.g.db_ui_save_localtion = "~/Alpha/sourceCode/sql"
+      vim.g.db_ui_save_location = "~/Alpha/sourceCode/sql"
     end,
   },
 }
