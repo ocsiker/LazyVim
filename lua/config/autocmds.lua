@@ -36,7 +36,7 @@ vim.api.nvim_create_autocmd("FileType", {
 })
 
 vim.api.nvim_create_autocmd("BufWritePre", {
-  pattern = "*.sql",
+  pattern = { "plsql", "sql" },
   callback = function()
     require("conform").format({ async = true })
   end,
