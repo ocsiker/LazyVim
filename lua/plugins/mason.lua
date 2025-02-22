@@ -8,6 +8,8 @@ return {
       "java-debug-adapter",
       -- for c
       "clangd",
+      -- for format and linters
+      "sqlfluff",
     },
   },
 }
