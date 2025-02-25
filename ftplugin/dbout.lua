@@ -1,2 +1,2 @@
-vim.wo.foldenable = false
+-- vim.wo.foldenable = false
 vim.cmd("normal! zR")
