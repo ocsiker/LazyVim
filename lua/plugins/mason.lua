@@ -9,7 +9,6 @@ return {
       -- for c
       "clangd",
       -- for format and linters
-      "sqlfluff",
     },
   },
 }
