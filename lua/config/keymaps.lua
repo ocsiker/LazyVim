@@ -2,13 +2,14 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 --
-local keymap_files = {
-  "keymaps/asciidoc",
+
+local keymaps = {
+  "config.keymaps.asciidoc",
 }
 
-for _, file in ipairs(keymap_files) do
-  local ok, err = pcall(require, file)
+for _, mod in ipairs(keymaps) do
+  local ok, err = pcall(require, mod)
   if not ok then
-    print("Lỗi khi load keymap từ: " .. file .. "\n" .. err)
+    vim.notify("Lỗi khi load keymap: " .. mod .. "\n" .. err, vim.log.levels.ERROR)
   end
 end
