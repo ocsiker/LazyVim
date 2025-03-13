@@ -18,6 +18,8 @@ return {
       -- chay oracle sqlcl
       vim.g.db_ui_use_sqlplus = 0
       vim.g.dbext_default_ORA_bin = "sql"
+      --on which side of the screen should be drawer open
+      vim.g.db_ui_win_position = "right"
       vim.g.db_ui_save_location = "~/Alpha/sourceCode/sql"
     end,
   },
