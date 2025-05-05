@@ -3,6 +3,10 @@
 -- Add any additional keymaps here
 --
 
+vim.keymap.set("n", "<leader>fk", function()
+  require("adoc_search").search_adoc_keywords()
+end, { desc = "Search AsciiDoc keywords with fzf" })
+
 local keymaps = {
   "config.keymaps.asciidoc",
 }
