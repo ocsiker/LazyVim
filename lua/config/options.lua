@@ -12,3 +12,6 @@ vim.o.foldlevelstart = 0
 vim.g.maplocalleader = ","
 -- tự động ngắt dòng khi 80 ý tự
 vim.o.textwidth = 100
+-- them title de hien thi trong tmux
+vim.opt.title = true
+vim.opt.titlestring = "%t %m"
