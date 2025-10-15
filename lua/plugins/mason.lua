@@ -1,5 +1,5 @@
 return {
-  " manson-org/mason.nvim",
+  "manson-org/mason.nvim",
   opts = {
     ensure_installed = {
       -- for java
