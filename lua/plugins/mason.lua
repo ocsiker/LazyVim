@@ -9,6 +9,7 @@ return {
       -- for c
       "clangd",
       -- for format and linters
+      "lua-language-server",
     },
   },
 }
